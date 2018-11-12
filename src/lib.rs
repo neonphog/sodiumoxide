@@ -56,7 +56,7 @@
 #![cfg_attr(not(feature = "std"), no_std)]
 #![cfg_attr(not(feature = "std"), feature(alloc))]
 
-extern crate libsodium_sys as ffi;
+extern crate rust_sodium_sys as ffi;
 
 extern crate libc;
 #[cfg(any(test, feature = "serde"))]
